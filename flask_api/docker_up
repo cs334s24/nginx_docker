@@ -1,1 +1,1 @@
-docker run -d --name flask_api -p 8000:8000 flask_api
+docker run -d --name flask_api --network capstone -p 8000:8000 flask_api
